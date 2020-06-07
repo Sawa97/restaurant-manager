@@ -1,0 +1,11 @@
+#editForm-addE{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 80px;
+    height: 800px;
+    background-color: #1E1F26;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,39 @@
+.button-add-plan{
+    width:180px;
+    height:60px;
+    min-height: fit-content;
+    cursor: pointer;
+    font-size:16px;
+    margin-left:20vw;
+    margin-top:20px;
+}
+
+.button-dish-date{
+    width:8vw;
+    min-width:fit-content;
+    border-radius: 8px;
+    height:35px;
+    cursor: pointer;
+    font-size:16px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 870px) {
+    .button-add-plan{
+        margin-left:15vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .button-add-plan {
+        margin-left: 8vw;
+        margin-right: 20px;
+
+    }
+
+    .button-menu {
+        margin-bottom: 20px;
+    }
+    .button-dish-date{
+        width:11vw;
+    }
+}

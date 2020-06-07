@@ -1,0 +1,63 @@
+#editForm{
+    margin: 0 auto;
+    width: 1200px;
+    margin-top: 80px;
+    height: 600px;
+    background-color: #1E1F26;
+    border-radius: 15px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+#editContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edith2{
+    margin-top: 20px;
+}
+
+.form-dish-name, .form-dish-descript, .form-dish-price, .form-dish-category{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 60px;
+    margin-left:40px;
+}
+
+#text-dish-name, #text-dish-desc, #text-dish-price{
+    height: 40px;
+}
+
+#text-dish-name{
+    width:20vw;
+}
+
+#text-dish-desc{
+    width:1000px;
+}
+
+#text-dish-price{
+    width:100px;
+}
+
+h4{
+    color: white;
+}
+
+.edit-h4{
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 870px) {
+}
+
+@media only screen and (max-width: 600px){
+    #edith2-space{
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}

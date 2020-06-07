@@ -1,0 +1,10 @@
+.form-disposition-add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#text-disposition{
+    height:200px;
+    width: 60vw;
+}

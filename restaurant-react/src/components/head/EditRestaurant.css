@@ -1,0 +1,81 @@
+#text-restaurant-city{
+    height: 40px;
+    width: 25vw;
+}
+
+#text-restaurant-address{
+    width: 30vw;
+    height: 40px;
+}
+
+#submit {
+    width: 10vw;
+    border-radius: 8px;
+    height: 35px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+#submit-restaurant{
+    margin-right: 2vw;
+    width: 10vw;
+    border-radius: 8px;
+    height: 35px;
+    cursor: pointer;
+    min-width: fit-content;
+}
+
+.tableContent-employees{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#restaurant-employee{
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:white;
+}
+
+#restaurant-edit-employee{
+    background-color: #1E1F26;
+}
+
+.addTableButton{
+    margin-left: 6vw;
+    height:50px;
+    margin-right:20px;
+}
+
+.form-table-add{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-left:40px;
+    margin-top:60px;
+}
+
+#text-restaurant-tables{
+    width: 12vw;
+    margin-right:30px;
+    height: 40px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 870px) {
+
+}
+
+@media only screen and (max-width: 600px){
+    #submit-restaurant {
+        min-width: 25vw;
+    }
+    #submit {
+        min-width: 25vw;
+    }
+    #restaurant-employee{
+        width: 100%;
+        margin: 0 0 20px;
+    }
+}

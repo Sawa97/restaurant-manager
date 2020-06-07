@@ -1,0 +1,61 @@
+#input1 {
+    height: 40px;
+    width: 20vw;
+    margin-left: 145px;
+}
+
+#input2 {
+    height: 40px;
+    width: 20vw;
+    margin-left: 90px;
+}
+
+#input3 {
+    height: 40px;
+    width: 20vw;
+    margin-left: 65px;
+}
+
+#input4 {
+    height: 40px;
+    width: 20vw;
+    margin-left: 20px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 870px) {
+    #input1 {
+        width: 30vw;
+    }
+
+    #input2 {
+        width: 30vw;
+
+    }
+
+    #input3 {
+        width: 30vw;
+
+    }
+
+    #input4 {
+        width: 30vw;
+    }
+}
+
+    @media only screen and (max-width: 600px) {
+        #input1 {
+            width: 40vw;
+        }
+
+        #input2 {
+            width: 40vw;
+        }
+
+        #input3 {
+            width: 40vw;
+        }
+
+        #input4 {
+            width: 40vw;
+        }
+    }

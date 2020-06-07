@@ -1,0 +1,28 @@
+.editButton-menu, .deleteButton-menu, .infoButton-menu{
+    margin-right: 5vw;
+    width: 10vw;
+    min-width: fit-content;
+}
+
+.editTd-menu{
+    float:right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 870px) {
+
+}
+
+@media only screen and (max-width: 600px){
+    .editTd-menu{
+        float:left;
+    }
+    .editButton-menu, .deleteButton-menu, .infoButton-menu{
+        margin-right: 5px;
+    }
+    .menu-div{
+        min-height: fit-content;
+    }
+}

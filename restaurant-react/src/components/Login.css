@@ -1,0 +1,80 @@
+.login-content a, h2 {
+    color: white;
+}
+
+.main-content-login{
+    margin-bottom: 150px;
+}
+
+.main-content-reset{
+    margin-bottom: 220px;
+}
+
+.login-content{
+    padding-top:0;
+    width: 400px;
+    margin: 150px auto 0;
+    height: fit-content;
+    background-color: #1E1F26;
+    border-radius: 15px;
+    display: block;
+}
+
+.remind{
+    padding-bottom: 10px;
+}
+
+.form-text, .form-login, .form-password, .form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.form-submit {
+    margin-top: 45px;
+    margin-bottom: 0;
+}
+
+#text-user, #text-password {
+    width: 300px;
+    color: black;
+    background-color: #C4C5C6;
+    border-radius: 4px;
+    height: 25px;
+}
+
+
+.language-img{
+    margin-right: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+#myForm{
+    padding-top:40px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 870px) {
+    .form-text, .form-login, .form-password, .form-submit {
+        padding-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .form-text, .form-login, .form-password, .form-submit {
+        padding-left: 30px;
+    }
+
+    .main-content-login{
+        margin-bottom: 20vh;
+    }
+
+    .main-content-reset{
+        margin-bottom: 20vh;
+    }
+
+    .login-content{
+      margin-top:20vh;
+    }
+}
