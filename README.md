@@ -15,15 +15,15 @@ Using app is possible to add client's orders to online system or manage employee
 ### Main site for manager
 ![Main site for manager](2.png)
 ## Technologies
-•	Java11
-•	Spring
-•	React.js
-•	HTML
-•	Cascading Style Sheet
-•	PostgreSQL
-•	Gradle
-•	Lombok
-•	Jackson
+-	Java11
+-	Spring
+-	React.js
+-	HTML
+-	Cascading Style Sheet
+-	PostgreSQL
+-	Gradle
+-	Lombok
+-	Jackson
 
 ## Setup
 To start application running postgreSql server is needed.
